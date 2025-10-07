@@ -1,19 +1,7 @@
-# Changelog
-
-## v2.0 – 2025-09-15
+## [v2.0] — 2025-10-07
 ### Added
-- `--user` flag: filter snapshot to current user processes only.
-- `--side-by-side` flag: aligned comparison view.
-- Automatic colorized diff if `colordiff` is installed.
-
+- Unified YPS documentation design and verified signing
 ### Changed
-- Snapshots now named with full timestamp (`YYYYMMDD-HHMMSS`).
-- Default diff uses unified format (`diff -u`).
-
+- Standardized header, footer and contact blocks
 ### Fixed
-- Safer error handling if no previous snapshot exists.
-
----
-
-## v1.0 – Initial Release
-- Basic process snapshotting using `ps aux`.
+- Cross-links and version consistency
