@@ -1,7 +1,14 @@
-## [v2.0] — 2025-10-07
+## [2.0] — 2025-10-08
 ### Added
-- Unified YPS documentation design and verified signing
+- Incremental baseline comparator and JSON reporting.
+- Cleaner CLI prompts; improved exit codes.
+
 ### Changed
-- Standardized header, footer and contact blocks
+- Standardized README with YPS branding and badges.
+
 ### Fixed
-- Cross-links and version consistency
+- Reduced false positives on ephemeral mounts.
+
+### Future
+- Remote baseline storage (YPS Cloud Vault).
+- Systemd units for scheduled snapshots.
